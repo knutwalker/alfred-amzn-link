@@ -1,0 +1,14 @@
+[package]
+name = "alfred-amzn-link"
+description = "Alfred Workflow to cleanup an Amazon URL"
+authors = ["Paul Horn <dev@knutwalker.engineer>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+publish = false
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+powerpack = "0.4.1"
+url = "2.3.1"
