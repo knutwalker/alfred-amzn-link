@@ -104,9 +104,9 @@ jobs:
       - name: Archive
         id: archive
         run: |
-          archive=numbers-converter-${{ steps.version.outputs.value }}-${{ matrix.target }}.alfredworkflow
+          archive=amzn-link-${{ steps.version.outputs.value }}-${{ matrix.target }}.alfredworkflow
           powerpack package --target ${{ matrix.target }}
-          mv target/workflow/alfred-numbers-converter.alfredworkflow "$archive"
+          mv target/workflow/alfred-amzn-link.alfredworkflow "$archive"
           echo "::set-output name=path::$archive"
 
       - uses: softprops/action-gh-release@v1
