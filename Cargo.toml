@@ -10,5 +10,5 @@ version = "0.1.1"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-powerpack = "0.4.1"
+powerpack = "0.4.2"
 url = "2.3.1"
